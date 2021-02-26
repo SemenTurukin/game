@@ -72,7 +72,7 @@ class Alien(pygame.sprite.Sprite):
 
     def __init__(self):
         super().__init__(alien_group)
-        self.rect = self.image.get_rect().move(random.randint(0, 755), random.randint(50, 200))
+        self.rect = self.image.get_rect().move(random.randint(50, 755), random.randint(50, 200))
         self.duration = 1
         self.dead = False
 
